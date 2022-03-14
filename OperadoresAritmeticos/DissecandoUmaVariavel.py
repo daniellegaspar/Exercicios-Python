@@ -1,0 +1,10 @@
+#Dissecando uma variável#
+a = input('Digite algo:')
+print('O tipo primitivo desse valor é:', type(a))
+print('É alfanúmerico?', a.isalnum())
+print('É alfabético?', a.isalpha())
+print('É numérico?', a.isnumeric())
+print('É decimal?', a.isdecimal())
+print('Só tem espaço?', a.isspace())
+print('Está em maiúsculas?', a.isupper())
+print('Está em minúsculas?', a.islower())
