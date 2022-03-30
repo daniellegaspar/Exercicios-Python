@@ -9,7 +9,7 @@ nomevelho = ''
 totmulher20 = 0
 for p in range(1, 5):
     print('-' * 5, '{}ª PESSOA'.format(p), '-' * 5)
-    nome = str(input('Nome: '.format(p))).strip()
+    nome = str(input('Nome: ')).strip()
     idade = int(input('Idade: '))
     sexo = str(input('Sexo [M/F]: ')).strip()
     somaidade += idade
